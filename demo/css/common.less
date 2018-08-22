@@ -1,0 +1,54 @@
+@inputColor: #9ea6b7;
+* {
+  padding: 0;
+  margin: 0;
+}
+ul,li,dl{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+h1,h2,h3,h4,h5{
+  margin: 0;
+  padding: 0;
+}
+em,i{
+  font-style: normal;
+}
+input{
+  outline: none;
+}
+input::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+  color: @inputColor;
+}
+input:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+  color: @inputColor;
+}
+input::-moz-placeholder { /* Mozilla Firefox 19+ */
+  color: @inputColor;
+}
+input:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: @inputColor;
+}
+a{
+  text-decoration: none;
+  color: #68728c;
+  &:link,&:visited,&:hover,&:active{
+    text-decoration: none;
+  }
+  &:hover{
+    color: #347fff;
+  }
+}
+html{
+  background-color: #cccccc;
+}
+.echarts{
+  width: 50%;
+  height: 400px;
+  border: 1px solid #cccccc;
+  border-radius: 10px;
+  margin: 20px auto;
+  background-color: #fff;
+  overflow: hidden;
+}

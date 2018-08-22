@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>地图-地图与下拉框联动</title>
+  <link rel="stylesheet" href="./css/common.css">
+  <link rel="stylesheet" href="./css/2.css">
+</head>
+<body>
+<div class="select-box">
+  <select name="province" id="province">
+    <option>所有省份</option>
+    <option value="/北京市" data-area-id="1" data-showname="北京">北京市</option>
+    <option value="/天津市" data-area-id="7362" data-showname="天津">天津市</option>
+    <option value="/河北省" data-area-id="13267" data-showname="河北">河北省</option>
+    <option value="/山西省" data-area-id="67747" data-showname="山西">山西省</option>
+    <option value="/内蒙古自治区" data-area-id="99537" data-showname="内蒙古">内蒙古自治区</option>
+    <option value="/辽宁省" data-area-id="115224" data-showname="辽宁">辽宁省</option>
+    <option value="/吉林省" data-area-id="133208" data-showname="吉林">吉林省</option>
+    <option value="/黑龙江省" data-area-id="145665" data-showname="黑龙江">黑龙江省</option>
+    <option value="/上海市" data-area-id="161792" data-showname="上海">上海市</option>
+    <option value="/江苏省" data-area-id="167904" data-showname="江苏">江苏省</option>
+    <option value="/浙江省" data-area-id="191019" data-showname="浙江">浙江省</option>
+    <option value="/安徽省" data-area-id="224649" data-showname="安徽">安徽省</option>
+    <option value="/福建省" data-area-id="244377" data-showname="福建">福建省</option>
+    <option value="/江西省" data-area-id="262698" data-showname="江西">江西省</option>
+    <option value="/山东省" data-area-id="285860" data-showname="山东">山东省</option>
+    <option value="/河南省" data-area-id="367395" data-showname="河南">河南省</option>
+    <option value="/湖北省" data-area-id="420824" data-showname="湖北">湖北省</option>
+    <option value="/湖南省" data-area-id="452123" data-showname="湖南">湖南省</option>
+    <option value="/广东省" data-area-id="483250" data-showname="广东">广东省</option>
+    <option value="/广西壮族自治区" data-area-id="511462" data-showname="广西">广西壮族自治区</option>
+    <option value="/海南省" data-area-id="529344" data-showname="海南">海南省</option>
+    <option value="/重庆市" data-area-id="533328" data-showname="重庆">重庆市</option>
+    <option value="/四川省" data-area-id="545532" data-showname="四川">四川省</option>
+    <option value="/贵州省" data-area-id="604131" data-showname="贵州">贵州省</option>
+    <option value="/云南省" data-area-id="624372" data-showname="云南">云南省</option>
+    <option value="/西藏自治区" data-area-id="640332" data-showname="西藏">西藏自治区</option>
+    <option value="/陕西省" data-area-id="646578" data-showname="陕西">陕西省</option>
+    <option value="/甘肃省" data-area-id="671119" data-showname="甘肃">甘肃省</option>
+    <option value="/青海省" data-area-id="690094" data-showname="青海">青海省</option>
+    <option value="/宁夏回族自治区" data-area-id="695259" data-showname="宁夏">宁夏回族自治区</option>
+    <option value="/新疆维吾尔自治区" data-area-id="698440" data-showname="新疆">新疆维吾尔自治区</option>
+    <option value="/香港特别行政区" data-area-id="714368" data-showname="香港">香港特别行政区</option>
+    <option value="/澳门特别行政区" data-area-id="714390" data-showname="澳门">澳门特别行政区</option>
+    <option value="/台湾" data-area-id="714401" data-showname="台湾">台湾</option>
+  </select>
+</div>
+<div class="echarts echart-map"></div>
+<script src="./js/jquery/jquery.min.js"></script>
+<script src="./js/echarts/echarts.min.js"></script>
+<script src="./js/echarts/china.js"></script>
+<script src="js/2.js"></script>
+</body>
+</html>
